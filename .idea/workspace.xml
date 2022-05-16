@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2a10a399-434f-4c41-815d-0feb59333412" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/residencia/firstapi/entity/Editora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/residencia/firstapi/entity/Editora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/residencia/firstapi/entity/Livro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/residencia/firstapi/entity/Livro.java" afterDir="false" />
-    </list>
+    <list default="true" id="2a10a399-434f-4c41-815d-0feb59333412" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1652473415702</updated>
       <workItem from="1652473416995" duration="11930000" />
-      <workItem from="1652714013461" duration="347000" />
+      <workItem from="1652714013461" duration="682000" />
     </task>
     <servers />
   </component>
