@@ -2,15 +2,13 @@ package com.residencia.firstapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "livro")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "livroId")
 public class Livro {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,7 +20,7 @@ public class Livro {
 
     @ManyToOne
     @JoinColumn(name = "editora_id", referencedColumnName = "editora_id")
-    //@JsonBackReference
+    @JsonIgnore
     private Editora editora;
 
     public Integer getLivroId() {

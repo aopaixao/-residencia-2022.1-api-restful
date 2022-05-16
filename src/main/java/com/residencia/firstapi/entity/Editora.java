@@ -1,6 +1,7 @@
 package com.residencia.firstapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonIdentityInfo;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.fasterxml.jackson.annotation.ObjectIdGenerators;
 
@@ -9,9 +10,6 @@ import java.util.List;
 
 @Entity
 @Table(name = "editora")
-@JsonIdentityInfo(
-        generator = ObjectIdGenerators.PropertyGenerator.class,
-        property = "editoraId")
 public class Editora {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -22,7 +20,7 @@ public class Editora {
     private String editoraNome;
 
     @OneToMany(mappedBy = "editora")
-    //@JsonManagedReference
+    @JsonIgnore
     private List<Livro> livroList;
 
     public Integer getEditoraId() {

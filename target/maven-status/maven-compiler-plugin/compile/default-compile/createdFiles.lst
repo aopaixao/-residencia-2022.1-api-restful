@@ -1,0 +1,10 @@
+com/residencia/firstapi/repository/LivroRepository.class
+com/residencia/firstapi/controller/LivroController.class
+com/residencia/firstapi/service/LivroService.class
+com/residencia/firstapi/controller/EditoraController.class
+com/residencia/firstapi/entity/Editora.class
+com/residencia/firstapi/service/EditoraService.class
+com/residencia/firstapi/repository/EditoraRepository.class
+com/residencia/firstapi/FirstApiApplication$1.class
+com/residencia/firstapi/entity/Livro.class
+com/residencia/firstapi/FirstApiApplication.class
