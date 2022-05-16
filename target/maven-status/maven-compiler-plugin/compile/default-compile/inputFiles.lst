@@ -1,9 +1,0 @@
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/controller/LivroController.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/entity/Editora.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/service/EditoraService.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/repository/LivroRepository.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/FirstApiApplication.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/repository/EditoraRepository.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/controller/EditoraController.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/service/LivroService.java
-/opt/docker_files/residencia_software/java_api/host_files/host_files/1_api/src/main/java/com/residencia/firstapi/entity/Livro.java
