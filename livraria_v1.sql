@@ -1,3 +1,5 @@
+#CREATE DATABASE ressoft_firstapi;
+
 CREATE TABLE editora (
 	editora_id serial NOT NULL,
 	editora_nome varchar(255) NULL,
